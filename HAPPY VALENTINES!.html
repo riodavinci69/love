@@ -1,0 +1,110 @@
+<html>
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For The Love Of My Life ♡</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+   </head>
+<body>
+    <div class="container">
+        <!-- Background decorations -->
+        <div class="floating-hearts">
+            <div class="heart heart-1">♡</div>
+            <div class="heart heart-2">♡</div>
+            <div class="heart heart-3">♡</div>
+            <div class="heart heart-4">♡</div>
+            <div class="heart heart-5">♡</div>
+        </div>
+        <!-- Main content -->
+        <div class="main-content">
+            <h1 class="title">For My Beautiful Girlfriend (Hehehe)</h1>
+            <p class="subtitle">Kahit malayo tayo sa isa't isa, you're always in my heart</p>
+            
+            <div class="gift-box">
+                <div class="gift-icon">💝</div>
+                <p class="gift-text">I have something special for you...</p>
+                <button class="magic-button" id="surpriseBtn">
+                    <span class="button-text">Open Your Valentine's Surprise</span>
+                    <div class="button-hearts">
+                        <span>♡</span><span>♡</span><span>♡</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <!-- Popup overlays -->
+        <div class="overlay" id="overlay"></div>
+        
+        <!-- Flowers popup -->
+        <div class="popup flowers-popup" id="flowersPopup">
+            <div class="popup-content">
+                <span class="close-btn" data-popup="flowers">&times;</span>
+                <h2>A Bouquet Just For You 🌸</h2>
+                <div class="bouquet">
+                    <div class="flower flower-1">🌹</div>
+                    <div class="flower flower-2">🌸</div>
+                    <div class="flower flower-3">🌺</div>
+                    <div class="flower flower-4">🌷</div>
+                    <div class="flower flower-5">🌹</div>
+                    <div class="flower flower-6">🌸</div>
+                    <div class="flower flower-7">🌺</div>
+                </div>
+                <p class="flower-message">These flowers represent my love that blooms for you every day, Kahit malayo man tayo sa isa't isa. Each petal carries a kiss from me to you. 💕</p>
+            </div>
+        </div>
+        <!-- Letter popup -->
+        <div class="popup letter-popup" id="letterPopup">
+            <div class="popup-content">
+                <span class="close-btn" data-popup="letter">&times;</span>
+                <div class="letter">
+                    <div class="letter-header">
+                        <h2>My Dearest Baby Adi,</h2>
+                        <div class="date">Valentine's Day 2026 (February 14, 2026)</div>
+                    </div>
+                    <div class="letter-body">
+                        <p>I'm really grateful for you to come in my life, I started seeing colors in my world that is full of pitch black darkness.</p>
+                        
+                        <p>Though we may be separated through distance, There's nothing that makes the love I feel for you, fades. You are my first thought in the morning and my last thought at night.</p>
+                        
+                        <p>Your voice is my favorite sound, Your face is my favorite view and your love is my favorite feeling in the entire world.</p>
+                        
+                        <p>I promise that every day until we're together again, I'll love you more than the day before. You are my today and all of my tomorrows.</p>
+                        
+                        <p class="signature">Forever yours,<br>
+                        <span class="name">Lowel</span> ♡</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Song popup -->
+        <div class="popup song-popup" id="songPopup">
+            <div class="popup-content">
+                <span class="close-btn" data-popup="song">&times;</span>
+                <h2>Our Special Song 🎵</h2>
+                <div class="music-player">
+                    <div class="album-art">🎼</div>
+                    <div class="song-info">
+                        <h3 class="song-title">"Intertwine" - Over October Feat. The Ridleys</h3>
+                        <p class="song-description"> One day, I hope our are lives starts to intertwine, this would be the perfect song for our kasal hehehehe. 💕</p>
+                        
+                        <div class="player-controls">
+                            <button class="play-btn" id="playBtn">▶️ Play Our Song</button>
+                            <div class="volume-control">
+                                <span>🔊</span>
+                                <input type="range" id="volumeSlider" min="0" max="100" value="50">
+                            </div>
+                        </div>
+                        
+                        <!-- You can replace this with an actual audio file -->
+                        <audio id="audioPlayer" preload="auto">
+                             <source src="your-song.mp3" type="audio/mpeg"> 
+                        </audio>
+                        
+                        <p class="song-note">💫 This will always be our song, playing in my heart whenever I think of you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    </html>
